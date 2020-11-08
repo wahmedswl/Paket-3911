@@ -1,8 +1,0 @@
-GitInfo
-File: Version.vb
-
-group net46
-	File: {ODP_DLL} framework: net46
-
-group netcoreapp3.1
-	Oracle.ManagedDataAccess.Core framework: netcoreapp3.1

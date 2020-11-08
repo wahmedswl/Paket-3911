@@ -9,7 +9,7 @@ group net46
 	framework: net46
 	redirects: on
 
-	http http://www.gitlab.local:12345/api/v1/artifact/{REFS_BUILD}/Shared/References/{BUILD_ARCH}/net40/Odp/{ODP_VERSION}/{ODP_DLL}
+	http https://github.com/wahmedswl/Paket-3911/raw/main/lib-http/Oracle.DataAccess.dll
 
 group netcoreapp3.1
 	source https://api.nuget.org/v3/index.json
