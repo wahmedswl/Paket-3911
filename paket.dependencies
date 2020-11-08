@@ -1,0 +1,19 @@
+source https://api.nuget.org/v3/index.json
+framework: auto-detect
+redirects: on
+
+nuget GitInfo
+
+group net46
+	source https://api.nuget.org/v3/index.json
+	framework: net46
+	redirects: on
+
+	http http://www.gitlab.local:12345/api/v1/artifact/{REFS_BUILD}/Shared/References/{BUILD_ARCH}/net40/Odp/{ODP_VERSION}/{ODP_DLL}
+
+group netcoreapp3.1
+	source https://api.nuget.org/v3/index.json
+	framework: netcoreapp3.1
+	redirects: on
+
+	nuget Oracle.ManagedDataAccess.Core

@@ -1,0 +1,31 @@
+/*
+    This is a configuration file for the SwitchStartupProject Visual Studio Extension
+    See https://heptapod.host/thirteen/switchstartupproject/blob/branch/current/Configuration.md
+*/
+{
+  "Version": 3,
+  "ListAllProjects": false,
+  "MultiProjectConfigurations": {
+    "x86": {
+      "Projects": {
+        "MyProjectD": {}
+      },
+      "SolutionConfiguration": "Debug",
+      "SolutionPlatform": "x86"
+    },
+    "x64": {
+      "Projects": {
+        "MyProjectD": {}
+      },
+      "SolutionConfiguration": "Debug",
+      "SolutionPlatform": "x64"
+    },
+    "AnyCPU": {
+      "Projects": {
+        "MyProjectD": {}
+      },
+      "SolutionConfiguration": "Debug",
+      "SolutionPlatform": "AnyCPU"
+    }
+  }
+}

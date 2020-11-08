@@ -1,0 +1,8 @@
+GitInfo
+File: Version.cs
+
+group net46
+	File: Oracle.DataAccess.dll framework: net46
+
+group netcoreapp3.1
+	Oracle.ManagedDataAccess.Core framework: netcoreapp3.1
